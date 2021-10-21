@@ -1,0 +1,262 @@
+.nav {
+  background-color: #000;
+  z-index: 9;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: flex;
+  box-shadow: 0 5px 95px 0 rgba(0, 0, 0, 20);
+}
+
+.nav_top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  float: left;
+  width: 60%;
+}
+
+.logo img {
+  padding: 10px;
+}
+
+.nav_side {
+  float: right;
+  width: 40%;
+  margin-top: 45px;
+}
+
+.nav_side a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #FFE268;
+  font-weight: bold;
+  font-family: cosmic, sans-serif;
+  font-size: 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav_side a:hover {
+  color: #fff;
+  transition: all .4s ease;
+}
+
+.collection {
+  padding-bottom: 50px;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+}
+
+.collection h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 20px;
+}
+
+.collection .collection_container {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.collection .collection_container .car {
+  width: 33.33%;
+  margin: 10px;
+  height: auto;
+}
+
+.collection .collection_container .car:hover {
+  box-shadow: 0 4px 900px 0 rgba(0, 0, 0, .5);
+}
+
+.collection .collection_container .car .car_img {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.collection .collection_container .car .car_img img {
+  width: 100%;
+  height: 250px;
+}
+
+.collection .collection_container .car .car_content {
+  text-align: center;
+}
+
+.collection .collection_container .car .car_content h3 {
+  padding: 10px;
+  font-size: 25px;
+  font-family: cosmic, sans-serif;
+}
+
+.collection .collection_container .car .car_content p {
+  padding: 10px;
+  font-size: 15px;
+  font-family: cosmic, sans-serif;
+}
+
+.collection .collection_container .car .car_content a {
+  text-decoration: none;
+  margin: 35px;
+  padding: 7px 14px;
+  background-color: #4A148C;
+  color: white;
+  font-family: cosmic, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border: 3.5px solid #FFF;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.collection .collection_container .car .car_content a:hover {
+  background-color: #000;
+  color: yellow;
+  border: none;
+  border-bottom: 4px solid yellow;
+  transition: .5s
+}
+
+.collection .collection_btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.collection .collection_btn a {
+  text-decoration: none;
+  margin: 35px;
+  padding: 7px 14px;
+  background-color: #4A148C;
+  color: white;
+  font-family: cosmic, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  border: 3.5px solid #FFF;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.collection .collection_btn a:hover {
+  background-color: #000;
+  color: yellow;
+  border: none;
+  border-bottom: 4px solid yellow;
+  transition: .5s
+}
+
+footer {
+  background-color: black;
+  padding: 50px;
+  position: absolute;
+  top: 205%;
+  right: 0;
+  left: 0;
+}
+
+footer .pages {
+  text-align: center;
+}
+
+footer .pages h3 {
+  color: white;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .pages a {
+  text-decoration: none;
+  margin: 10px;
+  color: #FFE268;
+  font-size: 15px;
+  font-family: cosmic, sans-serif;
+}
+
+footer .pages a:hover {
+  color: #fff;
+}
+
+footer .doc {
+  text-align: center;
+}
+
+footer .doc h3 {
+  color: white;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .doc a {
+  text-decoration: none;
+  margin: 10px;
+  color: #FFE268;
+  font-size: 15px;
+  font-family: cosmic, sans-serif;
+}
+
+footer .doc a:hover {
+  color: #fff;
+}
+
+footer .social {
+  text-align: center;
+}
+
+footer .social h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .social a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #FFE268;
+  margin: 10px;
+}
+
+footer .social a:hover {
+  color: #fff;
+}
+
+footer .contact {
+  text-align: center;
+}
+
+footer .contact h3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .contact a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #FFE268;
+  margin: 10px;
+}
+
+footer .contact a:hover {
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
